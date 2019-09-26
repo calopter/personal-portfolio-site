@@ -1,3 +1,24 @@
 html {
   font-family: helvetica;
 }
+
+main {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template: 1fr 5fr 1fr / 4fr 1fr;
+  background: lightgrey url("../media/bg.svg") no-repeat 40% 30%;
+  text-align: center;
+}
+ 
+header, footer {
+  grid-column: auto / span 2;
+}
+
+nav {
+  grid-column: 2 / auto;
+}
+
+.content {
+  grid-row: 2 / auto;
+}

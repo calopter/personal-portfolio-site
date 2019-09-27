@@ -10,7 +10,7 @@ main {
   width: 100vw;
   height: 100vh;
   grid-template: 1fr 5fr 1fr / 1fr 3fr 1fr;
-  background: lightgrey url("../media/bg.svg") no-repeat 40% 30%;
+  background: lightgrey url("../media/bg.svg") fixed 40% 30%;
   text-align: center;
 }
  

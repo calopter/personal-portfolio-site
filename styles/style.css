@@ -48,12 +48,12 @@ nav li:hover {
   transition: 0.7s;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: #D3B5D3;
 }
 
-nav a:visited {
+a:visited {
   color: #A9D16F
 }
 

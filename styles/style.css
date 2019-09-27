@@ -19,7 +19,8 @@ header, footer {
 }
 
 header {
-  border-bottom: 1px dotted #D3B5D3;
+  color: #D3B5D3;
+  border-bottom: 1px dotted #A9D16F;
   padding-top: .4em;
   font-size: 7em;
   font-family: 'Akronim';
@@ -34,6 +35,26 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  list-style-image: url("../media/shadow.svg");
+}
+
+nav li {
+  transform: translate(70%, 0);
+  transition: 0.7s;
+}
+
+nav li:hover {
+  transform: translate(0, 0);
+  transition: 0.7s;
+}
+
+nav a {
+  text-decoration: none;
+  color: #D3B5D3;
+}
+
+nav a:visited {
+  color: #A9D16F
 }
 
 .content {

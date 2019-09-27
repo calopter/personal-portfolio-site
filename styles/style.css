@@ -75,3 +75,8 @@ a:visited {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.bio {
+  line-height: 1.8;
+  max-height: 50%;
+}

@@ -45,13 +45,18 @@ nav ul {
 }
 
 nav li {
-  transform: translate(70%, 0);
+  transform: translate(90%, 0);
   transition: 0.7s;
+  text-align: left;
 }
 
 nav li:hover {
-  transform: translate(0, 0);
+  transform: translate(40%, 0);
   transition: 0.7s;
+}
+
+nav a {
+  padding-left: 3em;
 }
 
 a {
